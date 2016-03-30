@@ -427,7 +427,7 @@ var data = [{
 
     {
         "vendorId": 23,
-        "address": "Towerstream - 200 W.Compton Boulevard Compton, CA 90220 ", 
+        "address": "Towerstream - 200 W.Compton Boulevard Compton, CA 90220 ",
         "latitude": 33.8943480000,
         "longitude": -118.2259790000
     },
@@ -693,35 +693,35 @@ var data = [{
 
     {
         "vendorId": 2,
-        "address": "ACC_Equipment_Ready - 29000 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "address": "ACC_Equipment_Ready - 29000 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ",
         "latitude": 33.7557330000,
         "longitude": -118.3092680000
     },
 
     {
         "vendorId": 2,
-        "address": "ACC_Equipment_Ready - 28924 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "address": "ACC_Equipment_Ready - 28924 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ",
         "latitude": 33.7562980000,
         "longitude": -118.3095960000
     },
 
     {
         "vendorId": 2,
-        "address": "ACC_Equipment_Ready - 28633 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "address": "ACC_Equipment_Ready - 28633 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ",
         "latitude": 33.7584350000,
         "longitude": -118.3129900000
     },
 
     {
         "vendorId": 2,
-        "address": "ACC_Equipment_Ready - 28631 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "address": "ACC_Equipment_Ready - 28631 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ",
         "latitude": 33.7589360000,
         "longitude": -118.3128220000
     },
 
     {
         "vendorId": 2,
-        "address": "ACC_Equipment_Ready - 28364 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "address": "ACC_Equipment_Ready - 28364 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ",
         "latitude": 33.7617590000,
         "longitude": -118.3108990000
     },
@@ -749,14 +749,14 @@ var data = [{
 
     {
         "vendorId": 24,
-        "address": "ACC_Equipment_Ready - 26302 WESTERN AVE LOMITA, CA 90717 ", 
+        "address": "ACC_Equipment_Ready - 26302 WESTERN AVE LOMITA, CA 90717 ",
         "latitude": 33.7398780000,
         "longitude": -118.2839380000
     },
 
     {
         "vendorId": 24,
-        "address": "ACC_Equipment_Ready - 25835 NARBONNE AVE LOMITA, CA 90717 ", 
+        "address": "ACC_Equipment_Ready - 25835 NARBONNE AVE LOMITA, CA 90717 ",
         "latitude": 33.7398780000,
         "longitude": -118.2839380000
     },
@@ -791,7 +791,7 @@ var data = [{
 
     {
         "vendorId": 15,
-        "address": "ATT_ACC - 1 SPACE PARK BLVD REDONDO BEACH, CA 90278 ", 
+        "address": "ATT_ACC - 1 SPACE PARK BLVD REDONDO BEACH, CA 90278 ",
         "latitude": 33.7398780000,
         "longitude": -118.2839380000
     },
@@ -1071,7 +1071,7 @@ var data = [{
 
     {
         "vendorId": 9,
-        "address": "Nitel - 100 TERRANEA WAY RANCHO PALOS VERDES, CA 90275 ", 
+        "address": "Nitel - 100 TERRANEA WAY RANCHO PALOS VERDES, CA 90275 ",
         "latitude": 33.7382260000,
         "longitude": -118.3976580000
     },
@@ -1113,7 +1113,7 @@ var data = [{
 
     {
         "vendorId": 9,
-        "address": "Nitel - 102 PACIFIC COAST HWY HERMOSA BEACH, CA 90254 ", 
+        "address": "Nitel - 102 PACIFIC COAST HWY HERMOSA BEACH, CA 90254 ",
         "latitude": 33.8559530000,
         "longitude": -118.3897680000
     },
@@ -1183,7 +1183,7 @@ var data = [{
 
     {
         "vendorId": 9,
-        "address": "Nitel - 10720 WILMINGTON LOS ANGELES, CA 90059 ", 
+        "address": "Nitel - 10720 WILMINGTON LOS ANGELES, CA 90059 ",
         "latitude": 33.9386240000,
         "longitude": -118.2387170000
     },
@@ -1197,7 +1197,7 @@ var data = [{
 
     {
         "vendorId": 27,
-        "address": "ATT_Uverse - 148 W 132 ND ST LOS ANGELES, CA 90061 ", 
+        "address": "ATT_Uverse - 148 W 132 ND ST LOS ANGELES, CA 90061 ",
         "latitude": 33.7398780000,
         "longitude": -118.2839380000
     },
@@ -1211,7 +1211,7 @@ var data = [{
 
     {
         "vendorId": 27,
-        "address": "ATT_Uverse - 19301 S SANTA FE AVE COMPTON, CA 90221 ", 
+        "address": "ATT_Uverse - 19301 S SANTA FE AVE COMPTON, CA 90221 ",
         "latitude": 33.8558470000,
         "longitude": -118.2153140000
     },
