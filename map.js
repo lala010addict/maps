@@ -11,7 +11,6 @@ function initialize() {
     for (var i = 0; i < data.length; i++) {
         var latLng = new google.maps.LatLng(data[i].latitude,
             data[i].longitude);
-        console.log(data.latitude);
         var marker = new google.maps.Marker({
             position: latLng
         });
