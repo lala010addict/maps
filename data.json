@@ -1,0 +1,1407 @@
+var data = [{
+        "vendorId": 2,
+        "address": "Charter - 2645 GUNDRY AVE SIGNAL HILL, CA 90806",
+        "latitude": 33.8475740000,
+        "longitude": -118.1736040000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 111 W OCEAN BLVD LONG BEACH, CA 90802",
+        "latitude": 33.7676610000,
+        "longitude": -118.1931010000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 285 BAY ST LONG BEACH, CA 90802",
+        "latitude": 33.7650190000,
+        "longitude": -118.1946280000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 455 E COLUMBIA ST LONG BEACH, CA 90806",
+        "latitude": 33.8094200000,
+        "longitude": -118.1873320000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 3700 SANTA FE AV LONG BEACH, CA 90810",
+        "latitude": 33.8246320000,
+        "longitude": -118.2148830000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 2776 PACIFIC AVE LONG BEACH, CA 90813",
+        "latitude": 33.8094070000,
+        "longitude": -118.1846780000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 2800 PACIFIC AVE LONG BEACH, CA 90806",
+        "latitude": 33.8094070000,
+        "longitude": -118.1846780000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 2801 ATLANTIC AVE LONG BEACH, CA 90806",
+        "latitude": 33.8094070000,
+        "longitude": -118.1846780000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 2883 E SPRING ST LONG BEACH, CA 90806",
+        "latitude": 33.8117030000,
+        "longitude": -118.1574010000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 301 E OCEAN BLVD. LONG BEACH, CA 90802",
+        "latitude": 33.8094070000,
+        "longitude": -118.1846780000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 4401 ATLANTIC AVE 3 RD FLOOR LONG BEACH, CA 90806",
+        "latitude": 33.8094070000,
+        "longitude": -118.1846780000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 701 E 28 TH ST LONG BEACH, CA 90806",
+        "latitude": 33.8094070000,
+        "longitude": -118.1846780000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 2880 ATLANTIC AVE LONG BEACH, CA 90806",
+        "latitude": 33.8094070000,
+        "longitude": -118.1846780000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 180 E.OCEAN BLVD SUITE 200 LONG BEACH, CA 90802",
+        "latitude": 33.7662510000,
+        "longitude": -118.1913850000
+    },
+
+    {
+        "vendorId": 21,
+        "address": "SonicNet - 201 S.Douglas St. El Segundo, CA 90245",
+        "latitude": 33.9143660000,
+        "longitude": -118.3842610000
+    },
+
+    {
+        "vendorId": 21,
+        "address": "SonicNet - 12722 Birch Ave. Hawthorne, CA 90250",
+        "latitude": 33.9169770000,
+        "longitude": -118.3497180000
+    },
+
+    {
+        "vendorId": 12,
+        "address": "Comcast - 3203 JACK NORTHROP FIELD Hawthorne, CA 90250 ",
+        "latitude": 33.9226780000,
+        "longitude": -118.3335050000
+    },
+
+    {
+        "vendorId": 12,
+        "address": "Comcast - 340 Golden Shore St Long Beach, Ca 90802",
+        "latitude": 33.7638020000,
+        "longitude": -118.2002620000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 1025 W 190 th St Gardena, CA 90248",
+        "latitude": 33.8587620000,
+        "longitude": -118.2934340000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 879 W 190 th St Gardena, CA 90248",
+        "latitude": 33.8601240000,
+        "longitude": -118.2891920000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 990 W 190 th St Torrance, CA 90502",
+        "latitude": 33.8574170000,
+        "longitude": -118.2949050000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 200 N Nash St El Segundo, CA 90245",
+        "latitude": 33.9176790000,
+        "longitude": -118.3862460000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2301 Rosecrans Ave El Segundo, CA 90245",
+        "latitude": 33.9025060000,
+        "longitude": -118.3826450000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2250 E Imperial Hwy El Segundo, CA 90245",
+        "latitude": 33.9304810000,
+        "longitude": -118.3844050000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 909 N Sepulveda Blvd El Segundo, CA 90245",
+        "latitude": 33.9295420000,
+        "longitude": -118.3966220000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2260 E Imperial Hwy El Segundo, CA 90245",
+        "latitude": 33.9303210000,
+        "longitude": -118.3840530000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 16208 S Vermont Ave Gardena, CA 90247",
+        "latitude": 33.8842050000,
+        "longitude": -118.2913420000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2240 E Imperial Hwy El Segundo, CA 90245",
+        "latitude": 33.9299350000,
+        "longitude": -118.3848850000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2300 E Imperial Hwy El Segundo, CA 90245",
+        "latitude": 33.9304550000,
+        "longitude": -118.3825010000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 222 N Sepulveda Blvd El Segundo, CA 90245",
+        "latitude": 33.9190570000,
+        "longitude": -118.3949880000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 444 N Nash St El Segundo, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2260 E El Segundo Blvd El Segundo, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 555 S Aviation Blvd El Segundo, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2230 E Imperial Hwy El Segundo, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 1925 E Dominguez St Long Beach, CA 90810",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 2321 Rosecrans Ave El Segundo, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 5155 W Rosecrans Ave Hawthorne, CA 90250 ",
+        "latitude": 33.9021580000,
+        "longitude": -118.3692270000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 400 Continental Blvd El Segundo, CA 90245",
+        "latitude": 33.9208900000,
+        "longitude": -118.3901110000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 1501 Hughes Way Long Beach, CA 90810",
+        "latitude": 33.8289460000,
+        "longitude": -118.2131420000
+    },
+
+    {
+        "vendorId": 14,
+        "address": "Zayo - 1920 E Maple Ave El Segundo, CA 90245",
+        "latitude": 33.9260770000,
+        "longitude": -118.3941230000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 258 KANSAS ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9190080000,
+        "longitude": -118.4004560000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 1558 E GRAND AVE EL SEGUNDO, CA 90245",
+        "latitude": 33.9194060000,
+        "longitude": -118.3998510000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 2250 E IMPERIAL HWY EL SEGUNDO, CA 90245",
+        "latitude": 33.9304810000,
+        "longitude": -118.3844050000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 1926 E MAPLE ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9265300000,
+        "longitude": -118.3921450000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 2260 E IMPERIAL HWY EL SEGUNDO, CA 90245",
+        "latitude": 33.9303210000,
+        "longitude": -118.3840530000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 875 N DOUGLAS ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9282460000,
+        "longitude": -118.3837370000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 700 VAN NESS AVE TORRANCE, CA 90501",
+        "latitude": 33.8422540000,
+        "longitude": -118.3172920000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 2381 ROSECRANS AVE EL SEGUNDO, CA 90245",
+        "latitude": 33.9023340000,
+        "longitude": -118.3800980000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 2141 ROSECRANS AVE EL SEGUNDO, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 898 N SEPULVEDA BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 222 N SEPULVEDA BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9190570000,
+        "longitude": -118.3949880000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 101 N SEPULVEDA BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9217780000,
+        "longitude": -118.3863200000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 1855 WESTERN WAY TORRANCE, CA 90501",
+        "latitude": 33.8504540000,
+        "longitude": -118.3128940000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 880 APOLLO ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9028830000,
+        "longitude": -118.3856830000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 2265 E EL SEGUNDO BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9169670000,
+        "longitude": -118.3838340000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 2120 PARK PL EL SEGUNDO, CA 90245",
+        "latitude": 33.9044850000,
+        "longitude": -118.3871260000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 16208 S VERMONT AVE GARDENA, CA 90247",
+        "latitude": 33.8842050000,
+        "longitude": -118.2913420000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 2233 E EL SEGUNDO BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9168970000,
+        "longitude": -118.3855770000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 650 N SEPULVEDA BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9250450000,
+        "longitude": -118.3953620000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 185 S DOUGLAS ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9147190000,
+        "longitude": -118.3837330000
+    },
+
+    {
+        "vendorId": 3,
+        "address": "Level3 - 879 W 190 TH ST GARDENA, CA 90248",
+        "latitude": 33.8601240000,
+        "longitude": -118.2891920000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 200 W.Compton Boulevard Compton, CA 90220 ", 
+        "latitude": 33.8943480000,
+        "longitude": -118.2259790000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 100 N Sepulveda Blvd El Segundo, CA 90245",
+        "latitude": 33.9169270000,
+        "longitude": -118.3950940000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 1960 E Grand Ave El Segundo, CA 90245",
+        "latitude": 33.9188250000,
+        "longitude": -118.3930690000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 200 N Sepulveda Blvd El Segundo, CA 90245",
+        "latitude": 33.9178130000,
+        "longitude": -118.3952090000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Towerstream - 2101 - 2141 Rosecrans Ave El Segundo, CA 90245",
+        "latitude": 33.9027000000,
+        "longitude": -118.3869210000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 222 N Sepulveda Blvd El Segundo, CA 90245",
+        "latitude": 33.9190570000,
+        "longitude": -118.3949880000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Towerstream - 2250 E.Imperial Highway El Segundo, CA 90245",
+        "latitude": 33.9304810000,
+        "longitude": -118.3844050000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Towerstream - 2301 - 2321 Rosecrans Ave El Segundo, CA 90245",
+        "latitude": 33.9023870000,
+        "longitude": -118.3821220000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Towerstream - 909 N.Sepulveda Boulevard El Segundo, CA 90245",
+        "latitude": 33.9296660000,
+        "longitude": -118.3964880000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 879 W 190 th St Gardena, CA 90248",
+        "latitude": 33.8600560000,
+        "longitude": -118.2893150000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 1050 S.Prairie Avenue Inglewood, CA 90306",
+        "latitude": 33.9505290000,
+        "longitude": -118.3437670000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 1 World Trade Ctr Long Beach, CA 90831",
+        "latitude": 33.7679700000,
+        "longitude": -118.2001380000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 100 W.Broadway Long Beach, CA 90802",
+        "latitude": 33.7689210000,
+        "longitude": -118.1926100000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 11 Golden Shore Long Beach, CA 90802",
+        "latitude": 33.7663840000,
+        "longitude": -118.2029640000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Towerstream - 111 West Ocean Boulevard Long Beach, CA 90802",
+        "latitude": 33.7676610000,
+        "longitude": -118.1931010000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 1500 Hughes Way Long Beach, CA 90810",
+        "latitude": 33.9178130000,
+        "longitude": -118.3952090000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 2600 Redondo Avenue Long Beach, CA 90806",
+        "latitude": 33.8048890000,
+        "longitude": -118.1507540000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Towerstream - 301 East Ocean Boulevard Long Beach, CA 90802",
+        "latitude": 33.9178130000,
+        "longitude": -118.3952090000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - 400 Oceangate Long Beach, CA 90802",
+        "latitude": 33.9178130000,
+        "longitude": -118.3952090000
+    },
+
+    {
+        "vendorId": 23,
+        "address": "Towerstream - Offshore Oil Rig Long Beach, CA 90801",
+        "latitude": 33.9178130000,
+        "longitude": -118.3952090000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 2260 E EL SEGUNDO BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9159330000,
+        "longitude": -118.3840850000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 970 W 190 TH ST TORRANCE, CA 90502",
+        "latitude": 33.8574520000,
+        "longitude": -118.2930280000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 1920 E MAPLE AVE EL SEGUNDO, CA 90245",
+        "latitude": 33.9260770000,
+        "longitude": -118.3941230000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 200 OCEANGATE LONG BEACH, CA 90802",
+        "latitude": 33.7667310000,
+        "longitude": -118.1999270000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 300 OCEANGATE LONG BEACH, CA 90802",
+        "latitude": 33.7664140000,
+        "longitude": -118.2003360000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 200 N NASH ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9176790000,
+        "longitude": -118.3862460000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 400 N DOUGLAS ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9170430000,
+        "longitude": -118.3831760000
+    },
+
+    {
+        "vendorId": 7,
+        "address": "XO - 18901 WILMINGTON AVE CARSON, CA 90746",
+        "latitude": 33.8587750000,
+        "longitude": -118.2357550000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 2515 S WESTERN AVE SAN PEDRO, CA 90732",
+        "latitude": 33.7226900000,
+        "longitude": -118.3138800000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 1840 S GAFFEY ST SAN PEDRO, CA 90731",
+        "latitude": 33.7272340000,
+        "longitude": -118.2922000000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 1622 S GAFFEY ST SAN PEDRO, CA 90731",
+        "latitude": 33.7291150000,
+        "longitude": -118.2919690000
+    },
+
+    {
+        "vendorId": 24,
+        "address": "ACC_Equipment_Ready - 285 W 6 TH ST SAN PEDRO, CA 90731",
+        "latitude": 33.7386120000,
+        "longitude": -118.2828800000
+    },
+
+    {
+        "vendorId": 24,
+        "address": "ACC_Equipment_Ready - 222 W 6 TH ST SAN PEDRO, CA 90731",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 24,
+        "address": "ACC_Equipment_Ready - 1360 W 6 TH ST SAN PEDRO, CA 90732",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 24,
+        "address": "ACC_Equipment_Ready - 302 W 5 TH ST SAN PEDRO, CA 90731",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 916 N WESTERN AVE SAN PEDRO, CA 90732",
+        "latitude": 33.7503340000,
+        "longitude": -118.3080700000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 980 N WESTERN AVE SAN PEDRO, CA 90732",
+        "latitude": 33.7516450000,
+        "longitude": -118.3084420000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 1000 N WESTERN AVE SAN PEDRO, CA 90732",
+        "latitude": 33.7523850000,
+        "longitude": -118.3086770000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 29000 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "latitude": 33.7557330000,
+        "longitude": -118.3092680000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 28924 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "latitude": 33.7562980000,
+        "longitude": -118.3095960000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 28633 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "latitude": 33.7584350000,
+        "longitude": -118.3129900000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 28631 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "latitude": 33.7589360000,
+        "longitude": -118.3128220000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 28364 S WESTERN AVE RANCHO PALOS VERDES, CA 90275 ", 
+        "latitude": 33.7617590000,
+        "longitude": -118.3108990000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 1891 N GAFFEY ST SAN PEDRO, CA 90731",
+        "latitude": 33.7619610000,
+        "longitude": -118.2940150000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 1851 N GAFFEY ST SAN PEDRO, CA 90731",
+        "latitude": 33.7617640000,
+        "longitude": -118.2934590000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 26640 WESTERN AVE HARBOR CITY, CA 90710 ",
+        "latitude": 33.7799820000,
+        "longitude": -118.3088770000
+    },
+
+    {
+        "vendorId": 24,
+        "address": "ACC_Equipment_Ready - 26302 WESTERN AVE LOMITA, CA 90717 ", 
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 24,
+        "address": "ACC_Equipment_Ready - 25835 NARBONNE AVE LOMITA, CA 90717 ", 
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 24,
+        "address": "ACC_Equipment_Ready - 2601 AIRPORT DR TORRANCE, CA 90505",
+        "latitude": 33.7935210000,
+        "longitude": -118.3291410000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "ACC_Equipment_Ready - 2785 PACIFIC COAST HWY TORRANCE, CA 90505",
+        "latitude": 33.7944610000,
+        "longitude": -118.3347010000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1 CIVIC PLAZA DR CARSON, CA 90745",
+        "latitude": 33.8331530000,
+        "longitude": -118.2589420000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1 NORTHROP AVE HAWTHORNE, CA 90250 ",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1 SPACE PARK BLVD REDONDO BEACH, CA 90278 ", 
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 100 W ALONDRA BLVD GARDENA, CA 90248",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 100 W ALONORA BLVD GARDENA, CA 90248",
+        "latitude": 33.8847440000,
+        "longitude": -118.2765200000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 100 W BROADWAY LONG BEACH, CA 90802",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1001 KNOX ST TORRANCE, CA 90502",
+        "latitude": 33.8547610000,
+        "longitude": -118.2945390000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1001 S SEASIDE AVE SAN PEDRO, CA 90731",
+        "latitude": 33.7335020000,
+        "longitude": -118.2691370000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1001 W 15 TH ST SAN PEDRO, CA 90731",
+        "latitude": 33.7300200000,
+        "longitude": -118.2986740000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 101 CONTINENTAL BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9168980000,
+        "longitude": -118.3914810000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 101 N SEPULVEDA BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9165950000,
+        "longitude": -118.3975530000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 101 PENN ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9165270000,
+        "longitude": -118.4103650000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1010 CRENSHAW BLVD TORRANCE, CA 90501",
+        "latitude": 33.8376380000,
+        "longitude": -118.3284390000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1010 S CABRILLO AVE SAN PEDRO, CA 90731",
+        "latitude": 33.7347860000,
+        "longitude": -118.2940860000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 10319 FIRMONA AVE INGLEWOOD, CA 90304",
+        "latitude": 33.9428380000,
+        "longitude": -118.3577490000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 10417 FELTON AVE INGLEWOOD, CA 90304",
+        "latitude": 33.9412130000,
+        "longitude": -118.3665260000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 105 E I ST WILMINGTON, CA 90744",
+        "latitude": 33.7815260000,
+        "longitude": -118.2621700000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1050 LINDEN AVE LONG BEACH, CA 90813",
+        "latitude": 33.7798520000,
+        "longitude": -118.1859550000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1055 SANDHILL AVE CARSON, CA 90746",
+        "latitude": 33.8793120000,
+        "longitude": -118.2561310000
+    },
+
+    {
+        "vendorId": 15,
+        "address": "ATT_ACC - 1059 E BEDMAR ST CARSON, CA 90746",
+        "latitude": 33.8435370000,
+        "longitude": -118.2568580000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 201 N DOUGLAS ST EL SEGUNDO, CA 90245",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 445 N DOUGLAS ST EL SEGUNDO, CA 90245",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 119 STANDARD ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9169030000,
+        "longitude": -118.4150420000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 119 EUCALYPTUS DR EL SEGUNDO, CA 90245",
+        "latitude": 33.9169800000,
+        "longitude": -118.4138560000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 145 SHELDON ST EL SEGUNDO, CA 90245",
+        "latitude": 33.9176510000,
+        "longitude": -118.4115240000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 15902 S WESTERN AVE GARDENA, CA 90247",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 812 W 165 TH PL GARDENA, CA 90247",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 1700 W 162 ND ST GARDENA, CA 90247",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 15100 S FIGUEROA ST GARDENA, CA 90248",
+        "latitude": 33.8939260000,
+        "longitude": -118.2819990000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 18030 S VERMONT AVE GARDENA, CA 90248",
+        "latitude": 33.8681300000,
+        "longitude": -118.2905700000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 13771 GRAMERCY PL GARDENA, CA 90249",
+        "latitude": 33.9061580000,
+        "longitude": -118.3138220000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 1653 W EL SEGUNDO BLVD GARDENA, CA 90249",
+        "latitude": 33.9167550000,
+        "longitude": -118.3063220000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 1664 W 139 TH ST GARDENA, CA 90249",
+        "latitude": 33.9054810000,
+        "longitude": -118.3069340000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 14400 HINDRY AVE HAWTHORNE, CA 90250 ",
+        "latitude": 33.9008920000,
+        "longitude": -118.3715440000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 13838 YUKON AVE HAWTHORNE, CA 90250 ",
+        "latitude": 33.9064770000,
+        "longitude": -118.3343430000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 12705 S VAN NESS AVE HAWTHORNE, CA 90250 ",
+        "latitude": 33.9175220000,
+        "longitude": -118.3178700000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 3203 JACK NORTHROP AVE HAWTHORNE, CA 90250 ",
+        "latitude": 33.9214250000,
+        "longitude": -118.3299960000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 12525 CHADRON AVE HAWTHORNE, CA 90250 ",
+        "latitude": 33.9191700000,
+        "longitude": -118.3295990000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 14120 HAWTHORNE BLVD HAWTHORNE, CA 90250 ",
+        "latitude": 33.9037000000,
+        "longitude": -118.3519190000
+    },
+
+    {
+        "vendorId": 8,
+        "address": "TWC - 4091 W 139 TH ST HAWTHORNE, CA 90250 ",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 100 ATLANTIC AVE LONG BEACH, CA 90802",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 100 N SEPULVEDA BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 100 TERRANEA WAY RANCHO PALOS VERDES, CA 90275 ", 
+        "latitude": 33.7382260000,
+        "longitude": -118.3976580000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 100 W BROADWAY LONG BEACH, CA 90802",
+        "latitude": 33.7689210000,
+        "longitude": -118.1926100000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1000 W CARSON ST TORRANCE, CA 90502",
+        "latitude": 33.8307090000,
+        "longitude": -118.2921510000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1001 E PACIFIC COAST HWY LONG BEACH, CA 90806",
+        "latitude": 33.7904700000,
+        "longitude": -118.1798970000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 101 ATLANTIC AVE LONG BEACH, CA 90802",
+        "latitude": 33.7682690000,
+        "longitude": -118.1853720000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 101 CONTINENTAL BLVD EL SEGUNDO, CA 90245",
+        "latitude": 33.9168980000,
+        "longitude": -118.3914810000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 102 PACIFIC COAST HWY HERMOSA BEACH, CA 90254 ", 
+        "latitude": 33.8559530000,
+        "longitude": -118.3897680000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1040 ELM AVE LONG BEACH, CA 90813",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1043 ELM AVE LONG BEACH, CA 90813",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1043 PINE AVE LONG BEACH, CA 90813",
+        "latitude": 33.7798330000,
+        "longitude": -118.1927360000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1045 ALAMITOS AVE LONG BEACH, CA 90813",
+        "latitude": 33.7798550000,
+        "longitude": -118.1790310000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1045 ATLANTIC AVE LONG BEACH, CA 90813",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1045 W ROSECRANS AVE GARDENA, CA 90247",
+        "latitude": 33.9024100000,
+        "longitude": -118.2932850000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1050 LINDEN AVE LONG BEACH, CA 90813",
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1057 PINE AVE LONG BEACH, CA 90813",
+        "latitude": 33.7801060000,
+        "longitude": -118.1926400000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1059 E BEDMAR ST CARSON, CA 90746",
+        "latitude": 33.8435370000,
+        "longitude": -118.2568580000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 10720 WILMINGTON LOS ANGELES, CA 90059 ", 
+        "latitude": 33.9386240000,
+        "longitude": -118.2387170000
+    },
+
+    {
+        "vendorId": 9,
+        "address": "Nitel - 1075 E PACIFIC COAST HWY LONG BEACH, CA 90806",
+        "latitude": 33.7898780000,
+        "longitude": -118.1787100000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 148 W 132 ND ST LOS ANGELES, CA 90061 ", 
+        "latitude": 33.7398780000,
+        "longitude": -118.2839380000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 825 MAPLE AVE TORRANCE, CA 90503",
+        "latitude": 33.8384920000,
+        "longitude": -118.3406210000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 19301 S SANTA FE AVE COMPTON, CA 90221 ", 
+        "latitude": 33.8558470000,
+        "longitude": -118.2153140000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 370 AMAPOLA AVE TORRANCE, CA 90501",
+        "latitude": 33.8458660000,
+        "longitude": -118.3227600000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 1630 W REDONDO BEACH BLVD GARDENA, CA 90247",
+        "latitude": 33.8882290000,
+        "longitude": -118.3052280000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 16500 S WESTERN AVE GARDENA, CA 90247",
+        "latitude": 33.8805870000,
+        "longitude": -118.3088650000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 19106 NORMANDIE AVE TORRANCE, CA 90502",
+        "latitude": 33.8566940000,
+        "longitude": -118.2980660000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 20715 AVALON BLVD CARSON, CA 90746",
+        "latitude": 33.8431410000,
+        "longitude": -118.2635990000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 25200 CRENSHAW BLVD TORRANCE, CA 90505",
+        "latitude": 33.7953640000,
+        "longitude": -118.3282690000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 1210 E 223 RD ST CARSON, CA 90745",
+        "latitude": 33.8235810000,
+        "longitude": -118.2522880000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 2401 W 208 TH ST TORRANCE, CA 90501",
+        "latitude": 33.8444510000,
+        "longitude": -118.3264610000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 2008 E PARK PL EL SEGUNDO, CA 90245",
+        "latitude": 33.9040400000,
+        "longitude": -118.3943920000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 2301 ROSECRANS AVE EL SEGUNDO, CA 90245",
+        "latitude": 33.9026900000,
+        "longitude": -118.3827840000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 1001 W CARSON ST TORRANCE, CA 90502",
+        "latitude": 33.8319080000,
+        "longitude": -118.2928750000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 1200 ROSECRANS AVE MANHATTAN BEACH, CA 90266",
+        "latitude": 33.9015570000,
+        "longitude": -118.3931900000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 23720 ARLINGTON AVE TORRANCE, CA 90501",
+        "latitude": 33.8091170000,
+        "longitude": -118.3196360000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 454 E CARSON PLAZA DR CARSON, CA 90746",
+        "latitude": 33.8465410000,
+        "longitude": -118.2671580000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 222 W 6 TH ST SAN PEDRO, CA 90731",
+        "latitude": 33.7388950000,
+        "longitude": -118.2821220000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 2601 AIRPORT DR TORRANCE, CA 90505",
+        "latitude": 33.7935210000,
+        "longitude": -118.3291410000
+    },
+
+    {
+        "vendorId": 27,
+        "address": "ATT_Uverse - 1025 W 190 TH ST GARDENA, CA 90248",
+        "latitude": 33.8587620000,
+        "longitude": -118.2934340000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 1200 W 7 TH STREET N LONG BEACH, CA 90813",
+        "latitude": 33.7753510000,
+        "longitude": -118.1763450000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 301 OCEAN BLVD 3 RD FLA LONG BEACH, CA 90802",
+        "latitude": 33.7672100000,
+        "longitude": -118.1943910000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 1 WORLD TRADE CTR LONG BEACH, CA 90831",
+        "latitude": 33.7679700000,
+        "longitude": -118.2001380000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 600 WEST 7 TH STREET LONG BEACH, CA 90813",
+        "latitude": 33.7753170000,
+        "longitude": -118.1993840000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 730 W 3 RD ST LONG BEACH, CA 90802",
+        "latitude": 33.7698970000,
+        "longitude": -118.2008370000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 2790 ATLANTIC AVE LONG BEACH, CA 90806",
+        "latitude": 33.8076260000,
+        "longitude": -118.1846460000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 700 LOCUST AVE LONG BEACH, CA 90813",
+        "latitude": 33.7753490000,
+        "longitude": -118.1910610000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 2360 PACIFIC AVE LONG BEACH, CA 90806",
+        "latitude": 33.8000600000,
+        "longitude": -118.1934330000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 1637 NORTH LONG BEACH BLVD LONG BEACH, CA 90813",
+        "latitude": 33.7881290000,
+        "longitude": -118.1899070000
+    },
+
+    {
+        "vendorId": 2,
+        "address": "Charter - 3310 E AIRPORT WAY LONG BEACH, CA 90806",
+        "latitude": 33082820000,
+        "longitude": -118.1538760000
+    }
+]
