@@ -4,30 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Google Map</title>
-    <style>
-    body {
-        margin: 0;
-        padding: 10px 20px 20px;
-        font-family: Arial;
-        font-size: 16px;
-    }
-    
-    #map-container {
-        padding: 6px;
-        border-width: 1px;
-        border-style: solid;
-        border-color: #ccc #ccc #999 #ccc;
-        -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
-        -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
-        box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
-        width: 600px;
-    }
-    
-    #map {
-        width: 600px;
-        height: 400px;
-    }
-    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!--    <script src="https://maps.googleapis.com/maps/api/js"></script> -->
 </head>
 
@@ -36,6 +14,9 @@
     <div id="map-container">
         <div id="map"></div>
     </div>
+    <div id='vendor'></div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="data.json"></script>
     <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclusterer/1.0/src/markerclusterer.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
