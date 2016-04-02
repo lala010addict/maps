@@ -32,6 +32,6 @@ for (var i = 0; i < uniqVendor.length; i++) {
 
 $('#vendor').append(elements);
 
-var filter = _.filter(data, function(vendorId){ return data.vendorId !== 24})
+var filter = _.filter(data, function(data){ return data.vendorId !== 2})
 
 console.log('filter', filter)
