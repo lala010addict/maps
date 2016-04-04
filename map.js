@@ -27,11 +27,30 @@ console.log(uniqVendor)
 
 var elements = [];
 for (var i = 0; i < uniqVendor.length; i++) {
-    elements.push($('<label class="checkbox-inline"><input type="checkbox" value="">' + uniqVendor[i] + ' </label>'));
+    elements.push($('<input class="numbers" type="checkbox"><label class="checkbox-inline">' + uniqVendor[i] + '</label>'));
 }
+console.log('elements', elements[1][0].innerText)
 
-$('#vendor').append(elements);
 
-var filter = _.filter(data, function(data){ return data.vendorId !== 2})
+$('#vendor').append(elements)
+
+var filter = _.filter(data, function(data) {
+
+    return data.vendorId !== 2
+})
 
 console.log('filter', filter)
+
+$(":checkbox").on("change", function() {
+     var mytext =  $(this).next('label').text();
+
+     console.log(mytext)
+
+    // $(":checkbox:checked").each(function() {
+
+    // });
+
+
+});
+
+
