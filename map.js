@@ -1,16 +1,16 @@
 function initialize() {
-    var center = new google.maps.LatLng(33.4419, -118.1419);
+    var center = new google.maps.LatLng(33.9019, -118.2419);
 
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 6,
+        zoom: 10,
         center: center,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
     var markers = [];
-    for (var i = 0; i < data.length; i++) {
-        var latLng = new google.maps.LatLng(data[i].latitude,
-            data[i].longitude);
+    for (var i = 0; i < checkedVendors.length; i++) {
+        var latLng = new google.maps.LatLng(checkedVendors[i].latitude,
+            checkedVendors[i].longitude);
         var marker = new google.maps.Marker({
             position: latLng
         });
@@ -27,30 +27,41 @@ console.log(uniqVendor)
 
 var elements = [];
 for (var i = 0; i < uniqVendor.length; i++) {
-    elements.push($('<input class="numbers" type="checkbox"><label class="checkbox-inline">' + uniqVendor[i] + '</label>'));
+    elements.push($('<input class="numbers" type="checkbox" checked ><label class="checkbox-inline" >' + uniqVendor[i] + '</label>'));
 }
-console.log('elements', elements[1][0].innerText)
+// console.log('elements', elements[1][0].innerText)
 
 
 $('#vendor').append(elements)
 
-var filter = _.filter(data, function(data) {
 
-    return data.vendorId !== 2
-})
-
-console.log('filter', filter)
+var removeVendor = [];
+var checkedVendors = data
 
 $(":checkbox").on("change", function() {
-     var mytext =  $(this).next('label').text();
+    var mytext = $(this).next('label').text();
 
-     console.log(mytext)
+    console.log($(this)[0].checked, mytext)
 
-    // $(":checkbox:checked").each(function() {
+    if ($(this)[0].checked === false)
 
-    // });
+    { removeVendor.push(mytext) }
 
+    if ($(this)[0].checked === true && removeVendor.indexOf(mytext) !== -1) {
+        removeVendor.splice(removeVendor.indexOf(mytext), 1);
+    }
+
+    console.log(removeVendor, 'removeVendor');
+
+
+    checkedVendors = _.reject(data, function(item) {
+        return removeVendor.indexOf(item['vendorId']) != -1
+    })
+
+    initialize();
 
 });
 
 
+
+console.log(checkedVendors, 'checkedVendors')

@@ -20,3 +20,8 @@
         width: 600px;
         height: 400px;
     }
+    
+    .checkbox-inline {
+        padding-left: 2px;
+        padding-right: 20px;
+    }
